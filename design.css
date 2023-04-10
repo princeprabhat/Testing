@@ -1,0 +1,556 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+body {
+    background-color: #EECACB !important;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero-slider-container {
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh !important;
+
+
+}
+
+
+
+.carousel-caption {
+    top: 30%;
+}
+
+.carousel-caption h2 {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 84px;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+}
+
+.carousel-caption p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 70px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+}
+
+.home-card-container {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    height: 300px;
+    width: 300px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.card img {
+    width: 7em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+
+.card p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+
+    color: #8D2C30;
+
+}
+
+.homepage-about-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+
+}
+
+.left-image img {
+
+    width: 25em;
+}
+
+.homepage-about-container .right-text {
+    width: 100%;
+    padding: 10px 30px 0px 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.right-text h4 {
+    font-family: Roboto;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(141, 44, 48, 1);
+    margin-bottom: 15px;
+
+}
+
+.right-text h2 {
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(141, 44, 48, 1);
+    margin-bottom: 25px;
+}
+
+.right-text h2 span {
+    border-bottom: 2px solid;
+}
+
+.right-text p {
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(141, 44, 48, 1);
+    width: 84%;
+
+}
+
+.village-png {
+
+    background: url(./Images/village.png);
+    background-size: contain;
+    width: 90%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: -100px;
+}
+
+.home-about-container {
+    width: 100%;
+
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.heading-para-container p {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(141, 44, 48, 1);
+
+
+}
+
+.heading-para-container h2 {
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 76px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(141, 44, 48, 1);
+    margin-bottom: 50px;
+    margin-top: 20px;
+
+}
+
+.about-cards-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cards-about {
+    width: 325px;
+    height: 370px;
+
+    background-color: white;
+    padding: 20px;
+    filter: drop-shadow(0px 0px 20px #8D2C30);
+
+}
+
+.cards-about img {
+    width: 80px;
+    border: 1px solid rgba(141, 44, 48, 1);
+    border-radius: 50%;
+    background-color: rgba(238, 202, 203, 1);
+}
+
+.cards-about h3 {
+    font-family: Roboto;
+    font-size: 1.4em;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(141, 44, 48, 1);
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.cards-about p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(141, 44, 48, 1);
+}
+
+
+.products-homepage-container {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+}
+
+.product-card-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.product-card {
+    width: 400px;
+    height: 400px;
+
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.product-card img {
+    width: 160px;
+
+}
+
+.product-card button {
+    position: absolute;
+    margin-top: 26em;
+    background: #8D2C30;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 25px 5px 25px;
+}
+
+.product-card button a {
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+
+}
+
+#ghee-product-pic {
+    width: 300px !important;
+}
+
+
+
+.image-container-home {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+
+}
+
+.text-content-home {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 7rem;
+}
+
+.text-content-home h2 {
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 76px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(141, 44, 48, 1);
+}
+
+.text-content-home p {
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(141, 44, 48, 1);
+}
+
+
+#image-box-triple {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 20px;
+    padding-bottom: 70px;
+
+
+}
+
+.triple-image img {
+    width: 20em;
+}
+
+.triple-image p {
+    font-family: Roboto;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(141, 44, 48, 1);
+
+}
+
+.triple-image ul {
+    text-align: left;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(141, 44, 48, 1);
+}
+
+.product-heading p {
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(141, 44, 48, 1);
+
+}
+
+.product-heading h2 {
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 76px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(141, 44, 48, 1);
+    margin-bottom: 40px;
+
+}
+
+.call-to-action-home {
+    background: url(./Images/C2A\ scene.png);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 100px 50px;
+
+}
+
+.call-to-action-home h2 {
+    width: 80%;
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 70px;
+
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0px 4px 4px #000000;
+}
+
+.call-to-action-home button {
+    border-radius: 19px;
+    border: none;
+    background-color: rgba(141, 44, 48, 0.5);
+    padding: 10px 50px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.call-to-action-home button a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0px 4px 4px #000000;
+
+}
+
+/*********************************************************************************************************************/
+/* About Page  */
+/*********************************************************************************************************************/
+
+.hero-about {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: url(./Images-About/hero-back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.hero-about h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 94px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    text-shadow: 0px 0px 20px #000000;
+}
+
+.hero-about p {
+    width: 65%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 55px;
+    text-align: center;
+
+    color: #FFFFFF;
+    text-shadow: 0px 0px 20px #000000;
+    margin-top: 15px;
+}
+
+.about-image-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.first-column-about img {
+
+    width: 45em;
+}
+
+.about-image-container .second-column-about {
+    display: flex;
+    flex-direction: column;
+    width: 25em;
+}
+
+/********************************************************************************************************************/
+footer {
+    display: flex;
+    background-color: rgba(141, 44, 48, 1);
+    height: 50vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h2 {
+
+    color: white;
+    text-align: center;
+    font-weight: 800;
+
+}
