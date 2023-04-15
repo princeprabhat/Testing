@@ -3,6 +3,7 @@
 
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 
 
 }
@@ -10,7 +11,7 @@
 html {
     margin: 0 !important;
     padding: 0 !important;
-    box-sizing: border-box;
+
 
 }
 
@@ -743,6 +744,92 @@ body {
     color: #8D2C30;
 }
 
+.testimonial-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.testimonial-container .test-heading h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 76px;
+    text-align: center;
+
+    color: #8D2C30;
+}
+
+.test-cards-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.card-testiminoals {
+    flex: 4;
+    background: url(./Images-About/Testimonial.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+
+}
+
+.card-testiminoals .image-logo-test {
+    width: 5em;
+    margin-bottom: 10px;
+
+}
+
+.card-testiminoals .test-intro-company {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #8D2C30;
+    margin-bottom: 10px;
+}
+
+.card-testiminoals p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    color: #8D2C30;
+    margin-bottom: 15px;
+}
+
+.card-testiminoals h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 41px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #8D2C30;
+}
 
 
 .call-to-action-about {
@@ -922,91 +1009,7 @@ body {
 
 
 /*****************************************************************************************************************/
-.testimonial-container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
-    margin-bottom: 20px;
-}
 
-.testimonial-container .test-heading h2 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 45px;
-    line-height: 76px;
-    text-align: center;
-
-    color: #8D2C30;
-}
-
-.test-cards-container {
-    width: 80%;
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 40px;
-    margin-bottom: 40px;
-
-}
-
-.card-testiminoals {
-    width: 257px;
-    background: url(./Images-About/Testimonial.png);
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    padding-top: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 30px;
-    text-align: center;
-
-}
-
-.card-testiminoals .image-logo-test {
-    width: 5em;
-    margin-bottom: 10px;
-
-}
-
-.card-testiminoals .test-intro-company {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 21px;
-    text-align: center;
-    color: #8D2C30;
-    margin-bottom: 10px;
-}
-
-.card-testiminoals p {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 21px;
-    text-align: center;
-    color: #8D2C30;
-    margin-bottom: 15px;
-}
-
-.card-testiminoals h4 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 25px;
-    line-height: 41px;
-    /* identical to box height */
-
-    text-align: center;
-
-    color: #8D2C30;
-}
 
 
 
