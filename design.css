@@ -1,15 +1,26 @@
 * {
+
+
     margin: 0;
     padding: 0;
 
 
 }
 
+html {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+
+}
+
 body {
     background-color: #EECACB !important;
+    font-family: 'Roboto', sans-serif;
+
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 
 .hero-slider-container {
@@ -112,6 +123,7 @@ body {
 .left-image img {
 
     width: 25em;
+    max-width: none !important;
 }
 
 .homepage-about-container .right-text {
@@ -267,6 +279,8 @@ body {
     flex-direction: column;
 
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .product-card-container {
@@ -426,7 +440,7 @@ body {
 
 .call-to-action-home {
     background: url(./Images/C2A\ scene.png);
-    width: 100%;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -522,6 +536,14 @@ body {
     width: 80%;
     margin: auto;
     display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+
+}
+
+.about-image-container .first-column-about {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
 
 }
@@ -535,9 +557,459 @@ body {
     display: flex;
     flex-direction: column;
     width: 25em;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.middle-container-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.middle-container-about h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 76px;
+    text-align: center;
+    color: #8D2C30;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+
+.middle-container-about p {
+    width: 80%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 35px;
+    text-align: center;
+    color: #8D2C30;
+}
+
+.middle-container-about img {
+    width: 100%;
+    position: relative;
+}
+
+.container-about-cards-block {
+    width: 80%;
+
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    padding: 25px;
+}
+
+.about-card-text-heading {
+    margin-bottom: 80px;
+}
+
+.about-card-text-heading h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 76px;
+    text-align: center;
+    color: #8D2C30;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+
+.about-card-text-heading p {
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    text-align: center;
+    color: #8D2C30;
+}
+
+.about-middle-card-section {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.middle-cards-2x2 {
+    width: 21em;
+    background-color: white;
+    padding: 40px;
+    filter: drop-shadow(0px 0px 20px #8D2C30);
+
+}
+
+.middle-cards-2x2 img {
+    width: 80px;
+    border: 1px solid rgba(141, 44, 48, 1);
+    border-radius: 50%;
+    background-color: rgba(238, 202, 203, 1);
+}
+
+.middle-cards-2x2 h3 {
+    font-family: Roboto;
+    font-size: 1.4em;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(141, 44, 48, 1);
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.middle-cards-2x2 p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(141, 44, 48, 1);
+}
+
+#counter-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+#counter-box .counter-card {
+    width: 250px;
+    height: 240px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.counter-card img {
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.counter-card span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center;
+
+    color: #8D2C30;
+}
+
+.counter-card p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #8D2C30;
+}
+
+
+
+.call-to-action-about {
+    background: url(./Images-About/C2A.png);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 100px 50px;
+
+}
+
+.call-to-action-about h2 {
+    width: 80%;
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 70px;
+
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0px 4px 4px #000000;
+}
+
+.call-to-action-about button {
+    border-radius: 19px;
+    border: none;
+    background-color: rgba(141, 44, 48, 0.5);
+    padding: 10px 50px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.call-to-action-about button a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0px 4px 4px #000000;
+
 }
 
 /********************************************************************************************************************/
+
+
+/*****************************Products Css starts here**************************************************************/
+
+.hero-product {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: url(./Images-Products/Hero-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.hero-product h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 94px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    text-shadow: 0px 0px 20px #000000;
+}
+
+.products-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hero-product p {
+    width: 65%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 55px;
+    text-align: center;
+
+    color: #FFFFFF;
+    text-shadow: 0px 0px 20px #000000;
+    margin-top: 15px;
+}
+
+.products-container-page {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+
+.products-card-box {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+
+
+}
+
+.inner-product-card {
+    width: 15em;
+    height: 15em;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.inner-product-card img {
+    width: 5em;
+}
+
+.inner-product-card button {
+    position: absolute;
+    margin-top: 16em;
+    background: #8D2C30;
+    border-radius: 30px;
+    border: none;
+    padding: 8px 20px 8px 20px;
+}
+
+.inner-product-card button a {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+
+}
+
+#ghee-product-page {
+    width: 8em !important;
+}
+
+.products-png-container {
+    background: url(./Images-Products/village-background.png);
+    background-size: contain;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: -12em;
+}
+
+
+/*****************************************************************************************************************/
+.testimonial-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.testimonial-container .test-heading h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 76px;
+    text-align: center;
+
+    color: #8D2C30;
+}
+
+.test-cards-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.card-testiminoals {
+    width: 257px;
+    background: url(./Images-About/Testimonial.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+
+}
+
+.card-testiminoals .image-logo-test {
+    width: 5em;
+    margin-bottom: 10px;
+
+}
+
+.card-testiminoals .test-intro-company {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #8D2C30;
+    margin-bottom: 10px;
+}
+
+.card-testiminoals p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    color: #8D2C30;
+    margin-bottom: 15px;
+}
+
+.card-testiminoals h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 41px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #8D2C30;
+}
+
+
+
 footer {
     display: flex;
     background-color: rgba(141, 44, 48, 1);
@@ -552,5 +1024,18 @@ footer h2 {
     color: white;
     text-align: center;
     font-weight: 800;
+
+}
+
+@media (max-width:814px) {
+
+    html,
+    body {
+        width: 100%;
+
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
 
 }
