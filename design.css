@@ -232,15 +232,15 @@ body {
     justify-content: space-evenly;
     text-align: center;
     margin-top: 20px;
+    gap: 40px;
     margin-bottom: 20px;
 }
 
 .cards-about {
-    width: 325px;
-    height: 370px;
-
     background-color: white;
     padding: 20px;
+    flex: 4;
+    filter: drop-shadow(0px 0px px 20px #8D2C30);
     filter: drop-shadow(0px 0px 20px #8D2C30);
 
 }
@@ -647,17 +647,17 @@ body {
     margin-right: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+
     text-align: center;
     margin-bottom: 40px;
-
+    gap: 40px;
 }
 
 .middle-cards-2x2 {
-    width: 21em;
     background-color: white;
     padding: 40px;
     filter: drop-shadow(0px 0px 20px #8D2C30);
+    flex: 6;
 
 }
 
@@ -1007,6 +1007,54 @@ body {
     margin-top: -12em;
 }
 
+.call-to-action-products {
+    background: url(./Images-Products/C2A-Products.png);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 100px 50px;
+    margin-top: 50px;
+}
+
+.call-to-action-products h2 {
+    width: 80%;
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 70px;
+
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0px 4px 4px #000000;
+}
+
+.call-to-action-products button {
+    border-radius: 19px;
+    border: none;
+    background-color: rgba(141, 44, 48, 0.5);
+    padding: 10px 50px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.call-to-action-products button a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0px 4px 4px #000000;
+
+}
 
 /*****************************************************************************************************************/
 
